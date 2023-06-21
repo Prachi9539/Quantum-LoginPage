@@ -19,44 +19,42 @@
                         <p class="heading">Log in with Quantum</p>
                     </div>
                     <div class="school">
-                        <div>
-                            <img class="radio" src="../Assets/icons/radio-button-on.svg" alt="">
-                            <p class="radioName">District</p>
+                        <div class="radio-container">
+                            <input class="radio-btn"  type="radio" id="district" name="school">
+                            <label class="label-text" for="district">District</label>
                         </div>
-                        <div>
-                            <img class="radio" src="../Assets/icons/radio-button-off.svg" alt="">
-                            <p class="radioName">Independent school</p>
+                        <div class="radio-container">
+                            <input class="radio-btn" type="radio" id="independent" name="school">
+                            <label class="label-text" for="independent">Independent school</label>
                         </div>
                     </div>
                     <p class="label">State*</p>
-                    <div class="input">
-                        <p class="inputText">Alabama</p>
-                        <img src="../Assets/icons/arrow-down.svg" alt="">
-                    </div>
+                    <select name="states" id="lang">
+                        <option value="state">Alabama</option>
+                        <option value="state">England</option>
+                    </select>
                     <hr class="inputLine">
                     <p class="label">District*</p>
-                    <div class="input">
-                        <p class="inputText">Alabama School District</p>
-                        <img src="../Assets/icons/arrow-down.svg" alt="">
-                    </div>
+                    <select name="districts" id="lang">
+                        <option value="state">Alabama School District</option>
+                        <option value="state">Alabama Primary School District</option>
+                    </select>
                     <hr class="inputLine2">
-                    <p class="credentials">Username/Email ID*</p>
+                    <input class="cred" type="text" placeholder="Username/Email ID*">
                     <hr class="inputLine3">
                     <p class="forgot">FORGOT USERNAME?</p>
-                    <div class="input">
-                        <p class="credentials">Password*</p>
-                        <img src="../Assets/icons/preview.svg" alt="">
-                    </div>
+                    <input class="cred" type="password" placeholder="Password*">
+                    
                     <hr class="inputLine3">
                     <p class="forgot">FORGOT PASSWORD?</p>
                 
-                    <div class="rem">
-                        <img class="checked" src="../Assets/icons/checkbox-checked.svg" alt="">
-                        <p class="remember">Remember Me</p>
+                    <div class="check">
+                    <input class="check-btn" type="checkbox" id="rem">
+                    <label class="remember"for="rem">Remember Me</label>
                     </div>
         
                     <div class="logBtn">
-                        <button class="logIn">LOG IN</button>
+                        <button class="logIn" type="submit">LOG IN</button>
                     </div>
                     
                 </div>
@@ -69,7 +67,7 @@
             </div>
         </main>
         <Footer class="footer">
-            <img class="footer-logo" src="../Assets/icons/logo_footer.svg" alt="">
+            <img class="footer-logo" src="../Assets/icons/logo_footer.svg" alt="Footer Logo">
             <div class="vl"></div>
             <p class="copyright">Copyright &copy 2020-2021 <strong>Zeus Systems Pvt. Ltd. </strong> All rights reserved.</p>
         </Footer>
