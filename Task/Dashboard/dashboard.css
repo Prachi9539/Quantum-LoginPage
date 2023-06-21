@@ -1,26 +1,26 @@
 
 @font-face{
-    src: url("../Assets/static/Quicksand-Bold.ttf");
+    src: url("../Assets/fonts/Quicksand-Bold.ttf");
     font-family: Quicksand-Bold;
 }
 
 @font-face{
-    src: url("../Assets/static/Quicksand-Light.ttf");
+    src: url("../Assets/fonts/Quicksand-Light.ttf");
     font-family: Quicksand-Light;
 }
 
 @font-face{
-    src: url("../Assets/static/Quicksand-Medium.ttf");
+    src: url("../Assets/fonts/Quicksand-Medium.ttf");
     font-family: Quicksand-Medium;
 }
 
 @font-face{
-    src: url("../Assets/static/Quicksand-Regular.ttf");
+    src: url("../Assets/fonts/Quicksand-Regular.ttf");
     font-family: Quicksand-Regular;
 }
 
 @font-face{
-    src: url("../Assets/static/Quicksand-SemiBold.ttf");
+    src: url("../Assets/fonts/Quicksand-SemiBold.ttf");
     font-family: Quicksand-SemiBold;
 }
 
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     padding:2px 20px;
-    margin-bottom:20px;
+    
     
 
 }
@@ -145,6 +145,8 @@ body{
 }
 .filter{
     display: flex;
+    align-items: center;
+    justify-content: center;
     border-bottom: 1px solid #D1D1D1;
     margin-bottom: 20px;
     margin-top:20px;
@@ -177,15 +179,20 @@ body{
     font-size: 13px;
     font-weight:bold;
 }
-.c1{
+.card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 350px 350px;
     grid-gap: 30px;
 }
-.c2{
+.cardItem{
     background-color: #FFFFFF;
     padding: 40px 30px 10px 30px;
+}
+
+.cardItm{
+    background-color: #FFFFFF;
+    padding: 20px 30px 10px 30px;
 }
 .title-image{
     float: left;
@@ -287,6 +294,7 @@ body{
     border-bottom: 1px solid #D1D1D1;
 }
 
+
 .card-footer{
     display: flex;
     justify-content: space-around;
@@ -334,7 +342,7 @@ body{
     display: flex;
     align-items: center;
     margin-left:220px;
-    margin-bottom:35px;
+    margin-bottom:15px;
     color: #686868;
     flex-wrap:wrap;
     
@@ -416,7 +424,7 @@ body{
     .expire{
         color: #DB1112;
         position: relative;
-        top: -36px;
+        top: -16px;
         right: 30px;
         background-color: #FFE4E6;
         padding: 4px;
@@ -452,6 +460,7 @@ body{
     margin-left:0px;
     font-size:70%;
     padding-left:10px;
+    margin-top:0px;
     
 }
 .blur-txt{
@@ -545,11 +554,10 @@ body{
         display: flex;
         border-bottom: 2px solid #D1D1D1;
         height: 28px;
-        width:380px;
         justify-content: space-between;
         margin-top: 25px;
-        margin-bottom: 10px;
-        margin-right: 40px;
+        margin-bottom: 0px;
+    
     }
     .txt-no{
         font-family: Quicksand-Bold;
@@ -650,4 +658,32 @@ body{
     opacity:0.1;
 }
 
+select{
+    border:transparent;
+    width:100%;
+    font-family:Quicksand-Light;
+    font-size:medium;
+    font-weight: Bold;
+    color:black;
+    margin-top:5px;
+}
 
+.aboutCourse{
+    border:transparent;
+    width:100%;
+    font-family:Quicksand-Light;
+    font-size:small;
+    font-weight: Bold;
+    color:black;
+    margin-top:0px;
+    background-color:#EEEEEE;
+}
+.title-contentSpecial{
+    font-family: Quicksand-SemiBold;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    margin-left:20px;
+    margin-bottom: 5px;
+}
