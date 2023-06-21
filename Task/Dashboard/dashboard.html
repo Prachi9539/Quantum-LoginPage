@@ -9,7 +9,7 @@
 <body>
     <div class="back-img">
     <header class="header">
-        <img class="header-image" src="../Assets/icons/logo_header.svg" alt="logo"/>
+        <img class="header-image" src="../Assets/icons/logo_header.svg" alt=" Quantum logo"/>
         <div class="bottom menu">
             <p id="dash">DASHBOARD</p>
         </div>
@@ -17,25 +17,25 @@
         <p class="menu-items menu">USERS</p>
         <p class="menu-items menu">REPORTS</p>
         <p class="menu-items menu">ADMIN</p>
-        <img class="menu-items not" id="alert" style="height: 25px;" src="../Assets/icons/alerts.svg" alt="">
+        <img class="menu-items not" id="alert" style="height: 25px;" src="../Assets/icons/alerts.svg" alt="alerts logo">
         <span class="badge not">2</span>
-        <img class="menu-items not" style="height: 25px;" src="../Assets/icons/announcements.svg" alt="">
+        <img class="menu-items not" style="height: 25px;" src="../Assets/icons/announcements.svg" alt="announcements logo">
         <span class="badge1 not">1</span>
-        <img class="menu-items profile not" style="height: 25px;" src="../Assets/images/profile.jfif" alt="">
+        <img class="menu-items profile not" style="height: 25px;" src="../Assets/images/profile.jfif" alt="profile">
         <span class="badge2 not">T</span>
-        <img class="menu-items" id="ham" style="height: 25px;" src="../Assets/icons/hamburger-menu.svg" alt="">   
+        <img class="menu-items" id="ham" style="height: 25px;" src="../Assets/icons/hamburger-menu.svg" alt="hamburger">   
     </header>
 </div>
    <main class="main">
     <div class="container">
    <div class="numbers">
     <div class="courses">
-        <img class="img-course" src="../Assets/icons/courses.svg" alt="">
+        <img class="img-course" src="../Assets/icons/courses.svg" alt="Course logo">
         <p class="txt-no">4</p>
         <p class="txt-name">Courses</p>
     </div>
     <div class="classes">
-        <img class="img-class" src="../Assets/icons/classes.svg" alt="">
+        <img class="img-class" src="../Assets/icons/classes.svg" alt="Class logo">
         <p class="txt-no">4</p>
         <p class="txt-name">Classes</p>
     </div>
@@ -43,25 +43,24 @@
     <div class="filter">
         <p class="blur-txt">Showing 4 of 4 courses</p>
         <p class="sort blur-txt">Sort By:</p>
-        <div class="course-arrow">
-            <div>
-                <div class="course-name">Course Name</div>
-            </div>
-            <div>
-                <img src="../Assets/icons/arrow-down.svg" alt="">
-            </div>
+        <div>
+            <select class="aboutCourse" id="lang">
+                <option value="about">Course Name</option>
+                <option value="about">Course Duration</option>
+            </select>
+            
         </div>
-        <img class="upArrow" style="height: 20px;" src="../Assets/icons/sort.svg" alt="">
+        <img class="upArrow" style="height: 20px;" src="../Assets/icons/sort.svg" alt="Sort logo">
     </div>
-    <div class="c1">
-        <div class="c2 first">
+    <div class="card">
+        <div class="cardItem first">
             <div class="card-content">
-                <img class="title-image" src="../Assets/images/imageMask.png" alt="">
+                <img class="title-image" src="../Assets/images/imageMask.png" alt="Title ImageMask">
                 <div>
                     
                 <div class="flex-container1">
                 <div class="title-content">Acceleration</div>
-                <img class="t-img" src="../Assets/icons/favourite.svg" alt="">
+                <img class="t-img" src="../Assets/icons/favourite.svg" alt="favourites logo">
             </div>
                 <div class="flex-container2">
                     <div class="flex-text1"> Physics </div>
@@ -80,12 +79,10 @@
                 </div>
             </div>
             <div class="auth">
-                <div>
-                    <p class="auth-name">Mr. Frank's Class B</p>
-                </div>
-                <div>
-                    <img src="../Assets/icons/arrow-down.svg" alt="">
-                </div>
+                <select name="classes" id="lang">
+                    <option value="class">Mr. Frank's Class B</option>
+                    <option value="class">Mr. Frank's Class A</option>
+                </select>
             </div>
                 <div class="flex-container4">
                     <div class="txt4">50 Students</div>
@@ -94,18 +91,18 @@
                 </div>
             </div>
             <div class="card-footer">
-                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="">
-                <img style="height: 25px;" src="../Assets/icons/manage course.svg" alt="">
-                <img style="height: 25px;" src="../Assets/icons/grade submissions.svg" alt="">
-                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="">
+                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="Preview logo">
+                <img style="height: 25px;" src="../Assets/icons/manage course.svg" alt="Manage Course logo">
+                <img style="height: 25px;" src="../Assets/icons/grade submissions.svg" alt="Submission logo">
+                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="Report logo">
             </div>
         </div>
-        <div class="c2 second">
+        <div class="cardItem second">
             <div class="card-content">
-                <img class="title-image" src="../Assets/images/imageMask-1.png" alt="">
+                <img class="title-image" src="../Assets/images/imageMask-1.png" alt="Title ImageMask1">
                 <div class="flex-container1">
                     <div class="title-content">Displacement, Velocity and Speed</div>
-                    <img class="t-img" src="../Assets/icons/favourite.svg" alt="">
+                    <img class="t-img" src="../Assets/icons/favourite.svg" alt="favourites logo">
                 </div>
                 <div class="flex-container2">
                     <div class="flex-text1"> Physics 2 </div>
@@ -123,28 +120,26 @@
 
                 </div>
                 <div class="auth">
-                    <div>
-                        <p class="auth2-name">No Classes</p>
-                    </div>
-                    <div>
-                        <img src="../Assets/icons/arrow-down.svg" alt="">
-                    </div>
+                    <select name="schedule" id="lang">
+                        <option value="sch">No Classes</option>
+                        <option value="sch">Today's class</option>
+                    </select>
                 </div>
                 
             </div>
             <div class="card-footer">
-                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="">
-                <img class="blur" style="height: 25px; " src="../Assets/icons/manage course.svg" alt="">
-                <img class="blur" style="height: 25px; " src="../Assets/icons/grade submissions.svg" alt="">
-                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="">
+                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="Preview logo">
+                <img class="blur" style="height: 25px; " src="../Assets/icons/manage course.svg" alt="Manage Course logo">
+                <img class="blur" style="height: 25px; " src="../Assets/icons/grade submissions.svg" alt="Submission logo">
+                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="Report logo">
             </div>
         </div>
-        <div class="c2 third">
+        <div class="cardItem third">
             <div class="card-content">
-                <img class="title-image" src="../Assets/images/imageMask-3.png" alt="">
+                <img class="title-image" src="../Assets/images/imageMask-3.png" alt="Title IamgeMask3">
                 <div class="flex-container1">
-                    <div class="title-content">Introduction to Biology: Micro organisms and how they affec....</div>
-                    <img class="t-img" src="../Assets/icons/favourite.svg" alt="">
+                    <div class="title-contentSpecial">Introduction to Biology: Micro organisms and how they affec....</div>
+                    <img class="t-img" src="../Assets/icons/favourite.svg" alt="favourites logo">
                 </div>
                 <div class="flex-container2">
                     <div class="flex-text1"> Biology </div>
@@ -162,12 +157,11 @@
 
                 </div>
                 <div class="auth">
-                    <div>
-                        <p class="auth-name">All Classes</p>
-                    </div>
-                    <div>
-                        <img src="../Assets/icons/arrow-down.svg" alt="">
-                    </div>
+                    <select name="count" id="lang">
+                        <option value="cou">All Classes</option>
+                        <option value="cou">Class A</option>
+                    </select>
+                    
                 </div>
                 <div class="flex-container4">
                     <div class="txt4">300 Students</div>
@@ -175,20 +169,20 @@
                 </div>
             </div>
             <div class="card-footer">
-                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="">
-                <img class="blur" style="height: 25px; " src="../Assets/icons/manage course.svg" alt="">
-                <img class="blur" style="height: 25px; " src="../Assets/icons/grade submissions.svg" alt="">
-                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="">
+                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="Preview logo">
+                <img class="blur" style="height: 25px; " src="../Assets/icons/manage course.svg" alt="Manage Course Logo">
+                <img class="blur" style="height: 25px; " src="../Assets/icons/grade submissions.svg" alt="Submission logo">
+                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="Report logo">
             </div>
         </div>
-        <div class="c2 fourth" id="special">
+        <div class="cardItm fourth" id="special">
             <span class="expire">EXPIRED</span>
             <div class="card-content">
                 
-                <img class="title-image" src="../Assets/images/imageMask-2.png" alt="">
+                <img class="title-image" src="../Assets/images/imageMask-2.png" alt="Title ImageMask2">
                 <div class="flex-container1">
                     <div class="title-content">Introduction to High School Mathematics</div>
-                    <img class="title-image-expire" src="../Assets/icons/favourite.svg" alt="">
+                    <img class="title-image-expire" src="../Assets/icons/favourite.svg" alt="favourites logo">
                 </div>
                 <div class="flex-container2">
                     <div class="flex-text1"> Mathematics </div>
@@ -197,12 +191,10 @@
                     <div class="flex-text2"> +3 </div>
                 </div>
                 <div class="auth">
-                    <div>
-                        <p class="auth-name">Mr. Frank's Class A</p>
-                    </div>
-                    <div>
-                        <img src="../Assets/icons/arrow-down.svg" alt="">
-                    </div>
+                    <select name="expire-class" id="lang">
+                        <option value="class1">Mr. Frank's Class A</option>
+                        <option value="class1">Mr. Frank's Class B</option>
+                    </select>
                 </div>
                     <div class="flex-container4">
                         <div class="txt4">44 Students</div>
@@ -213,10 +205,10 @@
             
             </div>
             <div class="card-footer">
-                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="">
-                <img style="height: 25px;" src="../Assets/icons/manage course.svg" alt="">
-                <img style="height: 25px;" src="../Assets/icons/grade submissions.svg" alt="">
-                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="">
+                <img style="height: 30px;" src="../Assets/icons/preview.svg" alt="Preview logo">
+                <img style="height: 25px;" src="../Assets/icons/manage course.svg" alt="Manage Course logo">
+                <img style="height: 25px;" src="../Assets/icons/grade submissions.svg" alt="submissions logo">
+                <img style="height: 30px;" src="../Assets/icons/reports.svg" alt="Report logo">
             </div>
         </div>
     </div>
@@ -232,7 +224,7 @@
 </main>
 
 <Footer class="footer">
-    <img class="footer-logo" src="../Assets/icons/logo used in footer.svg" alt="">
+    <img class="footer-logo" src="../Assets/icons/logo used in footer.svg" alt="Quantum logo">
     <div class="vl"></div>
     <p class="copyright">Copyright &copy 2020-2021 <strong>Zeus Systems Pvt. Ltd. </strong> All rights reserved.</p>
 </Footer>
