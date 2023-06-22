@@ -206,6 +206,7 @@ body{
     padding-top:8px;
     font-family:Quicksand-Bold;
     width: 250px;
+    font-size:18px;
     
 }
 .first{
@@ -629,6 +630,10 @@ body{
         border-bottom: 2px solid #D1D1D1;
         height: 23px;
     }
+    .title-contentSpecial{
+        font-size:small;
+        
+    }
     .auth-name{
         margin-top: 0px;
         font-family: Quicksand-SemiBold;
@@ -684,6 +689,7 @@ select{
     -webkit-line-clamp:2;
     -webkit-box-orient:vertical;
     overflow: hidden;
-    margin-left:20px;
+    margin-left:13px;
     margin-bottom: 5px;
+    font-size:18px;
 }
